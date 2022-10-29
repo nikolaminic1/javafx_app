@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Project 1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/MainFolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/MainLibrary.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="first">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Project_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/main/fxml/style/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_18_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 1/META-INF/Project 1.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/java/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project 1/main/java/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/java/base.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project 1/main/java/base.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/resources/main/fxml/tab_menu.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/main/fxml/tab_menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main/fxml/layout/tab_menu.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +75,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -94,14 +105,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Scene Builder/SceneBuilder.lnk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Project3.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -109,6 +121,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minic\Nikola\Dev\Java\GUIApps\Project 1\src\main\resources\main\fxml\layout" />
       <recent name="C:\Users\minic\Nikola\Dev\Java\GUIApps\Project 1\src\main" />
       <recent name="C:\Users\minic\Nikola\Dev\Java\GUIApps\Project 1\src\main\java" />
       <recent name="C:\Users\minic\Nikola\Dev\Java\GUIApps\Project 1\sources\src" />
@@ -213,7 +226,13 @@
       <workItem from="1658673059553" duration="2099000" />
       <workItem from="1658679629099" duration="7755000" />
       <workItem from="1658762592642" duration="7628000" />
-      <workItem from="1658855085028" duration="2471000" />
+      <workItem from="1658855085028" duration="2603000" />
+      <workItem from="1659729017129" duration="730000" />
+      <workItem from="1659740335841" duration="663000" />
+      <workItem from="1659792335682" duration="11000" />
+      <workItem from="1660322863613" duration="492000" />
+      <workItem from="1666625402233" duration="1301000" />
+      <workItem from="1667039080607" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1658777443912</created>
@@ -222,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658777443912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1658859528879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658859528879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

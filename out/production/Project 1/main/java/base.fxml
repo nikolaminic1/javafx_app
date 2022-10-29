@@ -27,9 +27,9 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Pane layoutY="27.0" prefHeight="180.0">
+      <Pane layoutY="27.0" prefHeight="260.0" prefWidth="800.0">
          <children>
-            <fx:include source="../resources/main/fxml/tab_menu.fxml" />
+            <fx:include source="../resources/main/fxml/layout/tab_menu.fxml" />
          </children>
       </Pane>
    </children>
