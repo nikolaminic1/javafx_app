@@ -1,21 +1,10 @@
 <component name="libraryTable">
   <library name="javafx-sdk-18.0">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/lib" />
-      <root url="jar://$USER_HOME$/Desktop/Project3.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.base" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.controls" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.fxml" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.graphics" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.media" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.swing" />
-      <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/src/javafx.web" />
       <root url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/lib" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2" recursive="false" type="SOURCES" />
   </library>
 </component>

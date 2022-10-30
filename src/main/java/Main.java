@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/main/java/base.fxml"));
         primaryStage.setTitle("qm2 Studio");
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 1000, 850);
         scene.getStylesheets().add("/main/resources/main/fxml/style/layout.css");
         primaryStage.setScene(scene);
 //        primaryStage.setMaximized(true);

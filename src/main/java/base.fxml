@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controller" />
+
+<AnchorPane minHeight="850.0" minWidth="1000.0" prefHeight="850.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controller">
+   <children>
+      <MenuBar maxHeight="25.0" prefHeight="25.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane layoutY="25.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <top>
+            <Pane prefHeight="130.0" prefWidth="1000.0" styleClass="top_main_pane" stylesheets="@../resources/main/fxml/style/layout.css" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="1000.0">
+                     <children>
+                        <TabPane prefHeight="130.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                           <tabs>
+                              <Tab text="Untitled Tab 1">
+                                 <content>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="121.0" prefWidth="150.0" />
+                                          <Pane prefHeight="121.0" prefWidth="150.0" />
+                                          <Pane prefHeight="121.0" prefWidth="150.0" />
+                                          <Pane prefHeight="121.0" prefWidth="150.0" />
+                                          <Pane prefHeight="121.0" prefWidth="200.0" />
+                                       </children>
+                                    </HBox>
+                                 </content>
+                              </Tab>
+                              <Tab text="Untitled Tab 2">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </top>
+         <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="rght_main_pane" stylesheets="@../resources/main/fxml/style/layout.css" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Pane prefHeight="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Separator prefHeight="5.0" prefWidth="1000.0" valignment="TOP" />
+               </children>
+            </Pane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

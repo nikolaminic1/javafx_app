@@ -6,20 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Project_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/fxml/style/layout.css" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="edited layout">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project 1/main/resources/main/fxml/layout/tab_menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project 1/main/resources/main/fxml/style/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_18_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project 1/META-INF/Project 1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/java/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project 1/main/java/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Project_1_jar/Project 1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Project_1_jar/Project 1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project 1/main/java/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/java/base.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project 1/main/java/base.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project 1/main/resources/main/fxml/tab_menu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main/fxml/tab_menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main/fxml/layout/tab_menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/main/fxml/style/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main/fxml/style/layout.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Project3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_packages/openjfx-18.0.2_windows-x64_bin-sdk/javafx-sdk-18.0.2/lib/javafx.web.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -113,7 +113,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -232,7 +232,11 @@
       <workItem from="1659792335682" duration="11000" />
       <workItem from="1660322863613" duration="492000" />
       <workItem from="1666625402233" duration="1301000" />
-      <workItem from="1667039080607" duration="4685000" />
+      <workItem from="1667039080607" duration="4948000" />
+      <workItem from="1667051657353" duration="525000" />
+      <workItem from="1667052240269" duration="949000" />
+      <workItem from="1667071003900" duration="11000" />
+      <workItem from="1667123073595" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1658777443912</created>
@@ -248,7 +252,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658859528879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edited layout">
+      <created>1667050787250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667050787250</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edited layout">
+      <created>1667050802796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667050802796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edited layout">
+      <created>1667050810408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667050810408</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +296,7 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="edited layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited layout" />
   </component>
 </project>
